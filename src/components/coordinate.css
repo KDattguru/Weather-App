@@ -1,0 +1,62 @@
+/* Coordinates */
+/* .container{
+    background-image: url(../assets/react.sv);
+        background-color: transparent;
+        background-size: cover;
+        background-repeat: no-repeat;
+} */
+
+
+
+.search {
+    display: flex;
+    align-items: left;
+    gap: 40px;
+
+
+}
+
+.search input {
+    border: none;
+    position: relative;
+    outline: 0;
+    padding: 10px 5px;
+    font-size: 18px;
+    background-color: cream;
+    color: black;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 12px;
+    height: 20px;
+    width: 250px;
+}
+.search input:hover{
+    border: 1 px solid paleturquoise;
+}
+.search button {
+    border: none;
+    outline: 3;
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 20px;
+}
+
+
+
+.name {
+    margin-top: 100px;
+}
+
+.des {
+    color: red;
+    margin-top: 80px;
+}
+
+.temp {
+    font-size: 25px;
+}
